@@ -41,7 +41,6 @@ print(data.info())
 # Split the columns to input and output
 y = data.Outcome
 x = data.drop('Outcome', axis = 1)
-columns = x.columns
 
 # Transform input data for better classification
 scaler = StandardScaler()
